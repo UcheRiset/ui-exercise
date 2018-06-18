@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+
+.container{
+	
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	
+}
+
+
+.header{
+	
+	width: 100%;
+	
+}
+
+
+.sidebar{
+	width: 30%;
+	height: 100%;
+	float: left;
+	position: fixed;
+	display: none;
+	
+	
+	
+}
+
+
+.active{
+	display: block;
+	right: 0;
+}
+
+
+.hambuger{
+	float: right;
+	right: 0;
+	
+}
+
+
+
+.content{
+	margin-top: 50px;
+	width: 70%;
+	float: left;
+	height: 100%;
+	
+	
+}
+
+
+#content-block p{
+	font-size: 14px;
+	
+	
+	
+}
+
+
+#content-block h1{
+	font-size: 22px;
+
+	
+	
+}
+
+
+#content-block{
+	
+	width: 33%;
+	float: left;
+	min-height: 450px;
+	
+	
+}
+
+
+.footer{
+	
+	
+	width: 100%;
+	
+}
+
+
+#newmenu{
+	
+	display: none;	
+	
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+	
+	
+	#content-block{
+	
+	width: 100%;
+	float: none;
+	height: auto;
+	
+	
+}
+
+
+
+.sidebar{
+	
+	display: none;
+	
+}
+
+
+#newmenu{
+	
+	display: block;	
+	
+	
+
+}
+	
+	
+	
+}
+
+
+
+
